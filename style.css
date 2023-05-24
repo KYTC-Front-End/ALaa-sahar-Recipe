@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header  */
+.header{
+    background-image: url(./image/BackgroundHeader.png);
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+.pink-img{
+    position: relative;
+    height: 90vh;
+    z-index: 1;
+}
+
+.navbar{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    
+}
+.right-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    font-size: 18px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 44vw;
+    margin-top: 2em;
+
+}
+.Sign-h{
+    font-size: 18px;
+    height: 4vh;
+    width: 9vw;
+    border-radius: 20px ;
+    text-align: center;
+    background-color: #F8F8F8;
+
+
+}
+.pink-titel{
+    color: #F2435D;
+}
+.logo-header{
+    margin-top: 2em;
+    margin-bottom: 9em;
+
+}
+
+.pasta-header{
+    position: absolute;
+    z-index: 1;
+    right: 200px;
+    top: 65px;
+
+}
+.content-header{
+height: 35vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+}
+.h1-header{
+    text-align: start;
+}
+.h4-header{
+    text-align: start;
+}
+.left-side{
+    margin-left: 5em;
+}
+.btn-header{
+    background-color: #F2435D;
+    color: white;
+    border-radius: 20px;
+    height: 8vh;
+    width: 7vw;
+    border: solid 1px #F2435D;
+}
