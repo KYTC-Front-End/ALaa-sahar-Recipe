@@ -9,6 +9,7 @@
     height: 90vh;
     display: flex;
     justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
 }
 .pink-img{
     position: relative;
@@ -85,4 +86,68 @@ align-items: flex-start;
     height: 8vh;
     width: 7vw;
     border: solid 1px #F2435D;
+}
+
+
+
+
+
+/* Menu */
+.h2-menu{
+    font-family: 'Italianno', cursive;
+    color: #F2435D;
+    font-size: 50px;
+}
+.h4-menu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.menu-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+}
+.card-recep{
+    background-color: #FFF4F6;
+    height: 70vh;
+    width: 23vw;
+    border: solid 2px #FFF4F6;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-recep:hover{
+    color: #F2435D;
+
+
+}
+.menu-card{
+    display: flex;
+    justify-content: space-around;
+}
+.pizaa-menu{
+    width: 7vw;
+}
+.h1-menucard{
+    font-family: 'Italianno', cursive;
+    font-size: 45px;
+}
+.p-menucard{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.card-content{
+    width: 20vw;
+}
+.img-menucard1{
+    width: 12vw;
+}
+.Boox{
+    width: 8vw;
 }
