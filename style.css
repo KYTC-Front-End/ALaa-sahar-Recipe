@@ -151,3 +151,39 @@ align-items: flex-start;
 .Boox{
     width: 8vw;
 }
+
+/* Footer */
+footer{
+    height: 50vh;
+    background-image: url(./image/footer.png);
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-left{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.footer-Right{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer-Right{
+    height: 20vh;
+    width: 20vw;
+}
+.p-footer{
+    font-size: 20px;
+    color: white;
+}
+.logo-footer{
+    width: 20vw;
+}
