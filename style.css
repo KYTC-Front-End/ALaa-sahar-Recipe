@@ -187,3 +187,55 @@ footer{
 .logo-footer{
     width: 20vw;
 }
+
+
+
+
+/* Details page  */
+.header2{
+    background: url(./image/Header-background.png);
+    height: 20vh;
+    height: 60.3vh;
+}
+
+.logo-recipe{
+    width: 20vw;
+
+}
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.recipe-nav{
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 17px;
+
+
+ }
+ .Sign-a{
+    width: 7vw;
+    height: 5vh;
+    background-color: #F8F8F8;
+    border: solid 2px #F8F8F8;
+    border-radius: 25px;
+    color: #F2435D;
+
+
+}
+.recipe-h{
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Roboto', sans-serif;
+
+
+}
