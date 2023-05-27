@@ -362,3 +362,37 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
+
+
+
+
+  button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    height: 6vh;
+    width: 3vw;
+    border: solid 2px #f1f1f1;
+    font-size: 30px;
+
+  }
+  
+  .next {
+    background-color: #F2435D;
+    color: white;
+    height: 6vh;
+    width: 3vw;
+    border: solid 2px #f1f1f1;
+    font-size: 30px;
+  }
+  
+  .navigation{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
