@@ -9,7 +9,7 @@
     height: 90vh;
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Yrsa', serif;
 }
 .pink-img{
     position: relative;
@@ -99,7 +99,7 @@ align-items: flex-start;
     font-size: 50px;
 }
 .h4-menu{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Yrsa', serif;
     font-size: 30px;
 }
 
@@ -138,7 +138,7 @@ align-items: flex-start;
     font-size: 45px;
 }
 .p-menucard{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Yrsa', serif;
     font-size: 20px;
 }
 
@@ -187,3 +187,212 @@ footer{
 .logo-footer{
     width: 20vw;
 }
+
+
+
+
+/* Details page  */
+.header2{
+    background: url(./image/Header-background.png);
+    height: 20vh;
+    height: 60.3vh;
+}
+
+.logo-recipe{
+    width: 20vw;
+
+}
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.recipe-nav{
+    display: flex;
+    color: white;
+    font-family: 'Yrsa', serif;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 17px;
+
+
+ }
+ .Sign-a{
+    width: 7vw;
+    height: 5vh;
+    background-color: #F8F8F8;
+    border: solid 2px #F8F8F8;
+    border-radius: 25px;
+    color: #F2435D;
+
+
+}
+.recipe-h{
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Yrsa', serif;
+    color: white;
+
+
+}
+
+
+
+.list-recipe{
+    display: flex;
+    height: 215vh;
+}
+.left-list{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* height: 280vh; */
+    flex-direction: column;
+}
+.list-pizaa{
+    width: 27vw;
+}
+.list-pasta{
+    width: 20vw;
+
+}
+.card-image-list{
+    height: 50vh;
+    width: 85vw;
+}
+
+.card-menu-titel{
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+.card-menu-content{
+    font-family: 'Yrsa', serif;
+    font-size: 18px;
+}
+.menu-content{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40vh;
+}
+.btn-readnow{
+    height: 5vh;
+    width: 7vw;
+    background-color: #F2435D;
+    border: solid 2px #F2435D;
+    border-radius: 5px;
+}
+
+.card-list{
+    height: 50vh;
+    background-color: #FFF4F6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 90%;
+}
+.card-list{
+    display: flex;
+    justify-content: space-around;
+}
+.right-list{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    
+    
+}
+.filter-category{
+    width: 70%;
+    height: 60vh;
+    /* top: 0;
+    position: sticky; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:solid 2px #FFF4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.space{
+    height: 10vh;
+}
+
+.category-f{
+    height: 40vh;
+    width: 15vw;
+    background-color: #FFF4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.sec-test{
+    display: flex;
+    justify-content: center;
+}
+
+.category-content{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Yrsa', serif;
+    font-size: 20px;
+}
+.h-filter{
+    width: 11vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Yrsa', serif;
+    font-size: 18px;
+}
+
+.range-filter{
+    width: 70%;
+    height: 15vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:solid 2px #FFF4F6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+  button:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    height: 6vh;
+    width: 3vw;
+    border: solid 2px #f1f1f1;
+    font-size: 30px;
+
+  }
+  
+  .next {
+    background-color: #F2435D;
+    color: white;
+    height: 6vh;
+    width: 3vw;
+    border: solid 2px #f1f1f1;
+    font-size: 30px;
+  }
+  
+  .navigation{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
