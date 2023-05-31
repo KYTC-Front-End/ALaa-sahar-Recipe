@@ -216,6 +216,7 @@ footer{
     background: url(./image/Header-background.png);
     height: 20vh;
     height: 60.3vh;
+    background-size: cover;
 }
 
 .logo-recipe{
