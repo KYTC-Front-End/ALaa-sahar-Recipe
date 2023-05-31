@@ -1,0 +1,295 @@
+@media (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 80vh;
+    }
+    .right-nav{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: 60vh;
+        font-size: 24px;
+
+    }
+
+    .pasta-header {
+        display: none;
+    }
+
+    .left-side{
+        margin-left: 2em;
+
+    }
+    .h1-header{
+        font-size: 20px;
+    }
+    .logo-header {
+        margin-bottom: 3em;
+        width: 30vw;
+    }
+    .content-header {
+        height: 48vh;
+        width: 44vw;
+    }
+    .menu-card{
+        flex-direction: column;
+        align-items: center;
+        height: 310vh;
+    }
+    .card-content {
+        width: 61vw;
+    }
+    .card-recep {
+        width: 70vw;
+    }
+    .img-menucard1 {
+        width: 25vw;
+    }
+    .footer-Right{
+        display: none;
+    }
+    .logo-footer {
+        width: 55vw;
+    }
+
+
+    /* Recipelist page  */
+    .recipe-nav {
+        width: 50vw;
+        font-size: 14px;
+
+    }
+    .recipe{
+        height: 8vh;
+        
+    }
+    .right-list {
+        width: 100%;
+        height: 113vh;
+        justify-content: space-around;
+
+    }
+    .list-recipe {
+        flex-direction: column;
+        height: 325vh;
+        justify-content: space-between;
+    }
+    .left-list {
+        width: 100%;
+        align-items: center;
+        height: 270vh;
+    }
+    .btn-readnow {
+        width: 27vw;
+
+    }
+    .category-f {
+        width: 60vw;
+
+    }
+    .h-filter{
+        width: 44vw;
+    }
+    .card-image-list {
+        width: 130vw;
+    }
+    #searchbtn{
+        display: none;
+    }
+    #searchresponsive{
+        display: inline;
+    }
+    
+    .recipe-h {
+        font-size: 45px;
+    }
+    .card-menu-content {
+        font-size: 13px;
+    }
+    .previous {
+        width: 5vw;
+    }
+    .next {
+        width: 5vw;
+    }
+}
+
+
+
+/* **************************************************************** */
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .pasta-header {
+        right: 0px;
+        top: 100px;
+    }
+    #searchbtn{
+        display: none;
+    }
+    #searchresponsive{
+        display: inline;
+    }
+    .left-side {
+        margin-left: 2em;
+    }
+    .right-nav {
+        width: 34vw;
+        font-size: 16px;
+
+   }
+   .logo-header {
+    margin-bottom: 5em;
+   }
+   .content-header {
+    height: 46vh;
+}
+.card-recep{
+width: calc(48% - 10px);
+}
+.card-content {
+    width: 44vw;
+}
+.menu-card {
+    height: 153vh;
+    align-items: baseline;
+}
+
+    /* Recipelist page  */
+    .recipe-nav {
+        width: 50vw;
+
+    }
+    .recipe{
+        height: 8vh;
+        
+    }
+    .right-list {
+        width: 100%;
+        height: 113vh;
+        justify-content: space-around;
+
+    }
+    .list-recipe {
+        flex-direction: column;
+        height: 325vh;
+        justify-content: space-between;
+    }
+    .left-list {
+        width: 100%;
+        align-items: center;
+        height: 270vh;
+    }
+    .btn-readnow {
+        width: 20vw;
+
+    }
+    .category-f {
+        width: 60vw;
+
+    }
+    .h-filter{
+        width: 25vw;
+    }
+    .card-image-list {
+        width: 130vw;
+    }
+ 
+
+
+}
+
+
+
+
+/* **************************************************************** */
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .pasta-header {
+        right: 0px;
+        top: 65px;
+    }
+    #searchbtn{
+        display: none;
+    }
+    #searchresponsive{
+        display: inline;
+    }
+    .left-side {
+        margin-left: 2em;
+    }
+    .right-nav {
+        width: 34vw;
+        font-size: 16px;
+
+   }
+   .logo-header {
+    margin-bottom: 5em;
+   }
+   .content-header {
+    height: 46vh;
+}
+.card-recep{
+width: calc(48% - 10px);
+}
+.card-content {
+    width: 44vw;
+}
+.menu-card {
+    height: 190vh;
+    align-items: baseline;
+}
+.img-menucard1 {
+    width: 20vw;
+}
+
+
+
+
+}
+
+
+/* **************************************************************** */
+
+@media screen and (min-width: 1800px) {
+    
+    .content-header {
+        height: 55vh;
+   }
+   .logo-header {
+    margin-bottom: 0em;
+
+   }
+   .h1-header {
+    font-size: 60px;
+}
+.h4-header {
+    font-size: 25px;
+}
+.right-nav {
+    font-size: 32px;
+}
+.p-menucard {
+    font-size: 30px;
+}
+.h2-menu {
+    font-size: 85px;
+}
+.menu-text {
+    height: 50vh;
+}
+.h4-menu {
+    font-size: 50px;
+
+}
+
+
+
+
+}
+
+
+
+
