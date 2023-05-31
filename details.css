@@ -2,6 +2,15 @@
     padding: 0;
     margin: 0;
 }
+.navv{
+    text-decoration: none;
+    color: black;
+}
+.navv2{
+    text-decoration: none;
+    color: white;
+
+}
 /* Details page  */
 .header2{
     background: url(./image/download\ 1.png);
