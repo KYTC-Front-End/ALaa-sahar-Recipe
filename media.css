@@ -1,0 +1,197 @@
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-end;
+        height: 80vh;
+    }
+    .right-nav{
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        height: 60vh;
+        font-size: 24px;
+
+    }
+
+    .pasta-header {
+        /* right: 115px;
+        top: 46px;
+        width: 30vw; */
+        display: none;
+
+    }
+
+    .left-side{
+        margin-left: 2em;
+
+    }
+    .h1-header{
+        font-size: 20px;
+    }
+    .logo-header {
+        margin-bottom: 3em;
+        width: 30vw;
+    }
+    .content-header {
+        height: 48vh;
+        width: 44vw;
+    }
+    .menu-card{
+        flex-direction: column;
+        align-items: center;
+        height: 310vh;
+    }
+    .card-content {
+        width: 61vw;
+    }
+    .card-recep {
+        width: 70vw;
+    }
+    .img-menucard1 {
+        width: 25vw;
+    }
+    .footer-Right{
+        display: none;
+    }
+    .logo-footer {
+        width: 55vw;
+    }
+}
+
+
+
+/* **************************************************************** */
+
+
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .pasta-header {
+        right: 0px;
+        top: 100px;
+    }
+    #searchbtn{
+        display: none;
+    }
+    #searchresponsive{
+        display: inline;
+    }
+    .left-side {
+        margin-left: 2em;
+    }
+    .right-nav {
+        width: 34vw;
+        font-size: 16px;
+
+   }
+   .logo-header {
+    margin-bottom: 5em;
+   }
+   .content-header {
+    height: 46vh;
+}
+.card-recep{
+width: calc(48% - 10px);
+}
+.card-content {
+    width: 44vw;
+}
+.menu-card {
+    height: 153vh;
+    align-items: baseline;
+}
+
+
+}
+
+
+
+
+/* **************************************************************** */
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .pasta-header {
+        right: 0px;
+        top: 65px;
+    }
+    #searchbtn{
+        display: none;
+    }
+    #searchresponsive{
+        display: inline;
+    }
+    .left-side {
+        margin-left: 2em;
+    }
+    .right-nav {
+        width: 34vw;
+        font-size: 16px;
+
+   }
+   .logo-header {
+    margin-bottom: 5em;
+   }
+   .content-header {
+    height: 46vh;
+}
+.card-recep{
+width: calc(48% - 10px);
+}
+.card-content {
+    width: 44vw;
+}
+.menu-card {
+    height: 190vh;
+    align-items: baseline;
+}
+.img-menucard1 {
+    width: 20vw;
+}
+
+
+
+
+}
+
+
+/* **************************************************************** */
+
+@media screen and (min-width: 1800px) {
+    
+    .content-header {
+        height: 55vh;
+   }
+   .logo-header {
+    margin-bottom: 0em;
+
+   }
+   .h1-header {
+    font-size: 60px;
+}
+.h4-header {
+    font-size: 25px;
+}
+.right-nav {
+    font-size: 32px;
+}
+.p-menucard {
+    font-size: 30px;
+}
+.h2-menu {
+    font-size: 85px;
+}
+.menu-text {
+    height: 50vh;
+}
+.h4-menu {
+    font-size: 50px;
+
+}
+
+
+
+
+}
+
+
+
+

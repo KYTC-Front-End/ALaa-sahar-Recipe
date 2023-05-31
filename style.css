@@ -10,11 +10,13 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Yrsa', serif;
+    background-size: cover;
 }
 .pink-img{
     position: relative;
     height: 90vh;
     z-index: 1;
+    width: 48vw;
 }
 
 .navbar{
@@ -29,6 +31,9 @@
     width: 30vw;
     font-size: 18px;
     
+}
+.right-nav nav:hover{
+    color: #ddd;
 }
 .navbar{
     display: flex;
@@ -61,6 +66,7 @@
     z-index: 1;
     right: 200px;
     top: 65px;
+    width: 40vw;
 
 }
 .content-header{
@@ -88,6 +94,15 @@ align-items: flex-start;
     border: solid 1px #F2435D;
 }
 
+input[type=search] { 	
+	border: 2px solid #F2435D;  
+    line-height: 2;     
+}
+
+#searchresponsive{
+    display: none;
+}
+
 
 
 
@@ -112,8 +127,9 @@ align-items: flex-start;
 }
 .card-recep{
     background-color: #FFF4F6;
-    height: 70vh;
-    width: 23vw;
+    height: 90vh;
+    /* width: 23vw; */
+    width: calc(25% - 10px);
     border: solid 2px #FFF4F6;
     display: flex;
     justify-content: space-around;
@@ -126,9 +142,11 @@ align-items: flex-start;
 
 
 }
+
 .menu-card{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .pizaa-menu{
     width: 7vw;
@@ -142,8 +160,10 @@ align-items: flex-start;
     font-size: 20px;
 }
 
-.card-content{
-    width: 20vw;
+.card-content {
+    width: 22vw;
+    height: 30vh;
+
 }
 .img-menucard1{
     width: 12vw;
