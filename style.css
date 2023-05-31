@@ -25,6 +25,19 @@
     top: 0;
     
 }
+.navv{
+    text-decoration: none;
+    color: black;
+}
+.navv2{
+    text-decoration: none;
+    color: white;
+
+}
+.Read-now{
+    text-decoration: none;
+    color: black;
+}
 .right-nav{
     display: flex;
     justify-content: space-around;
