@@ -1,0 +1,223 @@
+/* Details page  */
+.header2{
+    background: url(./image/download\ 1.png);
+    width: 1440px;
+    height: 379px;
+    font-family: 'Yrsa', serif;
+}
+
+.logo-recipe{
+    width: 20vw;
+
+}
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.recipe-nav{
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 17px;
+
+
+ }
+ .Sign-a{
+    width: 7vw;
+    height: 5vh;
+    background-color: #F8F8F8;
+    border: solid 2px #F8F8F8;
+    border-radius: 25px;
+    color: #F2435D;
+
+
+}
+.recipe-h{
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    color: #fff;
+}
+.Submit{
+    display: flex;
+    justify-content: center;  
+    width: 1272px;
+    height: 974px;
+    background: #FFF4F6;
+    margin: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:solid 2px #FFF4F6;
+}
+.Submit1{
+   width: 1272px;
+   height: 108px;
+   background: #F2435D;
+   border: 1px solid #000000;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: 135px;
+    margin-top: 20px;
+    
+}
+.submit-text{
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    left: 210px;
+    line-height: 42px;
+
+}
+.img3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 40em;
+    position: absolute;
+    left: 10em;
+}
+.text1{
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+.box-x{
+    width: 608.6px;
+    height: 44.9px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40em;
+    left: 40em;
+}
+.text2{
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 659px;
+    top: 670px;
+    
+}
+.box-y{
+    width: 402px;
+    height: 206px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 45em;
+    left: 40em;
+}
+.text3{
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 659px;
+    top: 920px;
+}
+.box-a{
+    width: 402px;
+    height: 206px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 61em;
+    left: 40em;
+}
+.text4{
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    left: 659px;
+    top: 1169px;
+
+}
+.box{
+    width: 608.6px;
+    height: 44.9px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 639px;
+    top: 1219px;
+}
+.text5{
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgba(206, 206, 206, 1);
+    position: absolute;
+    left: 649px;
+    top: 1211px;
+}
+/* Footer */
+footer{
+    height: 50vh;
+    background-image: url(./image/footer.png);
+    margin-top: 10em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-left{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+.footer-Right{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footer-Right{
+    height: 20vh;
+    width: 20vw;
+}
+.p-footer{
+    font-size: 20px;
+    color: white;
+}
+.logo-footer{
+    width: 20vw;
+}
