@@ -35,7 +35,7 @@
     .menu-card{
         flex-direction: column;
         align-items: center;
-        height: 310vh;
+        /* height: 310vh; */
     }
     .card-content {
         width: 61vw;
@@ -113,6 +113,7 @@
     .next {
         width: 5vw;
     }
+
 }
 
 
