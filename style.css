@@ -155,8 +155,7 @@ input[type=search] {
 
 
 }
-.pasta-header:hover {
-    /* Add styles for the animated image on hover */
+.pasta-header:hover {    /* Add styles for the animated image on hover */
     animation: spin 1s infinite linear;
 }
 
@@ -169,6 +168,7 @@ input[type=search] {
         transform: rotate(360deg);
     }
 }
+
 
 .menu-card{
     display: flex;
