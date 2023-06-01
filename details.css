@@ -11,13 +11,11 @@
     color: white;
 
 }
-/* Details page  */
 .header2{
-    background: url(./image/download\ 1.png);
-    height: 46vh;
-    font-family: 'Yrsa', serif;
-    width: 97vw;
-   
+    background: url(./image/Header-background.png);
+    height: 20vh;
+    height: 60.3vh;
+    background-size: cover;
 }
 
 .logo-recipe{
@@ -28,18 +26,15 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    height: 8vh;
 }
 
 .recipe-nav{
     display: flex;
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: 'Yrsa', serif;
     width: 30vw;
     justify-content: space-between;
-    align-items: center;
     font-size: 17px;
-
 
 
  }
@@ -53,6 +48,21 @@
 
 
 }
+.recipe-h{
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Yrsa', serif;
+    color: white;
+
+
+}
+
+/* Details page  */
+
 .recipe-h{
     font-size: 60px;
     text-align: center;

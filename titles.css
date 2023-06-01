@@ -1,10 +1,62 @@
-/* Details page  */
-.header2{
-    background: url(./image/download\ 1.png);
-    width: 1440px;
-    height: 379px;
-    font-family: 'Yrsa', serif;
+
+*{
+    padding: 0;
+    margin: 0;
 }
+
+/* Header  */
+.header2{
+    background: url(./image/Header-background.png);
+    height: 20vh;
+    height: 60.3vh;
+    background-size: cover;
+}
+
+.logo-recipe{
+    width: 20vw;
+
+}
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.recipe-nav{
+    display: flex;
+    color: white;
+    font-family: 'Yrsa', serif;
+    width: 30vw;
+    justify-content: space-between;
+    font-size: 17px;
+
+
+ }
+ .Sign-a{
+    width: 7vw;
+    height: 5vh;
+    background-color: #F8F8F8;
+    border: solid 2px #F8F8F8;
+    border-radius: 25px;
+    color: #F2435D;
+
+
+}
+.recipe-h{
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    font-family: 'Yrsa', serif;
+    color: white;
+
+
+}
+
+/* Details page  */
+
 .navv{
     text-decoration: none;
     color: black;
@@ -57,7 +109,6 @@
 .Submit{
     display: flex;
     justify-content: center;  
-    width: 1272px;
     height: 974px;
     background: #FFF4F6;
     margin: 70px;
