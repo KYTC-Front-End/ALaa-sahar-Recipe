@@ -155,6 +155,20 @@ input[type=search] {
 
 
 }
+.pasta-header:hover {
+    /* Add styles for the animated image on hover */
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    /* Define the animation properties */
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
 .menu-card{
     display: flex;
